@@ -16,7 +16,7 @@ $ git clone https://github.com/AkiroSetonai/estagiofullstack-Walysson-Cavalcante
 
 -  [extensão](https://github.com/ritwickdey/vscode-live-server-plus-plus)
 
--  click F1 no vscode e digite Open with live server
+-  click F1 no vscode e digite:
 
 ```sh
  Open with live server
