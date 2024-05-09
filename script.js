@@ -11,7 +11,7 @@ let cols = 50;
 let playing = false;
 let start = document.querySelector('.start')
 let stop = document.querySelector('.stop')
-let blue = "#083A52";
+let blue = "#008CBA";
 let padraoColor = "#f0ffff";
 
 
