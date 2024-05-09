@@ -1,7 +1,19 @@
+function updateButtonColor(startActive){
+    start.style.backgroundColor = startActive ? blue : padraoColor;
+    start.style.color = startActive ? padraoColor : "black";
+    stop.style.backgroundColor = startActive ? padraoColor : blue;
+    stop.style.color = startActive ?  "black": padraoColor;
+}
+
 let grid;
 let rows = 50;
 let cols = 50;
 let playing = false;
+let start = document.querySelector('.start')
+let stop = document.querySelector('.stop')
+let blue = "#083A52";
+let padraoColor = "#f0ffff";
+
 
 function initializeGrid() {
     grid = new Array(rows);
@@ -82,11 +94,13 @@ function updateView() {
 }
 
 function startGame() {
+    updateButtonColor(true);
     playing = true;
     play();
 }
 
 function stopGame() {
+    updateButtonColor(false);
     playing = false;
 }
 
@@ -103,6 +117,13 @@ function clearGrid() {
         initializeGrid();
         drawGrid();
     }
+}
+
+function updateButtonColor(startActive){
+    start.style.backgroundColor = startActive ? blue : padraoColor;
+    start.style.color = startActive ? padraoColor : "black";
+    stop.style.backgroundColor = startActive ? padraoColor : blue;
+    stop.style.color = startActive ?  "black": padraoColor;
 }
 
 initializeGrid();
