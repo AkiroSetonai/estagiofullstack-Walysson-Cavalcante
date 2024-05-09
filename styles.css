@@ -1,5 +1,6 @@
 #container {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(50, 10px);
     grid-template-rows: repeat(50, 10px);
     gap: 1px;
@@ -11,6 +12,9 @@
     height: 10px;
     background-color: #fff;
     border: 1px solid #bbb;
+}
+.cell:hover{
+    background-color: #bbb;
 }
 
 button {
