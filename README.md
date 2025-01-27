@@ -1,6 +1,6 @@
 <h1>Teste Técnico para vaga de estagio Fullstack</h1>
 
-<h2>Este é  um projeto de "JOGO  DA VIDA DE CONWAY </h2>
+<h2>Este é  um projeto de "JOGO  DA VIDA DE CONWAY" </h2>
 <h2>O projeto foi feito com HTML, CSS e JAVASCRIPT puro. Para rodar o projeto siga as instruções!</h2>
 
 ## Instruções
